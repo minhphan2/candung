@@ -1,0 +1,7 @@
+# requirements.txt — Traffic Congestion Detection Pipeline
+# Install with: pip install -r requirements.txt
+
+ultralytics>=8.0.0       # YOLOv8 / YOLO11 model + tracker
+opencv-python>=4.8.0     # Video I/O, drawing, intersectConvexConvex
+numpy>=1.24.0            # Array operations
+lapx>=0.5.2              # Required by ByteTrack tracker
